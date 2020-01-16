@@ -1,0 +1,33 @@
+#email-input{
+    width: 300px;
+    height: 30px;
+}
+
+.email-sug{
+    width: 300px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid rgba(134, 132, 132,0.3);
+    border-top:none;
+    display: none;
+}
+
+.email-sug li{
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    color: darkgrey;
+    line-height: 30px;    
+    overflow: hidden;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.email-sug li:hover{
+    background-color:skyblue;
+}
+
+.email-sug li.active{
+    background-color:pink;
+}
